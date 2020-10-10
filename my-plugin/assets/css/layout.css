@@ -1,0 +1,28 @@
+
+.appfoster-table-wrap {
+    padding:50px 0;
+}
+.appfoster-table-wrap .container {
+    max-width: 1024px;
+    margin:0 auto;
+}
+.appfoster-table-wrap table {
+    border:none;
+    margin:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.appfoster-table-wrap th {
+    font-weight:700;
+    padding:10px;
+    text-transform: uppercase;
+     border-bottom: 2px solid #dcd7ca;
+}
+.appfoster-table-wrap td{
+    padding:10px;
+    border: 1px solid #dcd7ca;
+}
+.foods .label {
+    display:block;
+}
+
