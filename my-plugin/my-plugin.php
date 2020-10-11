@@ -30,7 +30,7 @@ function appfoster_page_template( $template ) {
     $file_name = 'template-test.php';
 
     $url_path = trim(parse_url(add_query_arg(array()), PHP_URL_PATH), '/');
-    if ( $url_path === 'berk/appfoster/test' ) {
+    if ( $url_path === 'appfoster/test' ) {
         
         $template = dirname( __FILE__ ) . '/templates/' . $file_name;
     }
